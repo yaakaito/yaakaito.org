@@ -7,10 +7,9 @@ module.exports = function(grunt) {
       ]
     }
     , min : {
-      'js/main.js' : [
-        'js/main.min.js'
+      'js/main.min.js' : [
+        'js/main.js'
       ]
-      , tasks : 'lint'
     }
   });
 
