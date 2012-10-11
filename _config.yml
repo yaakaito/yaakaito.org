@@ -1,1 +1,2 @@
+url: http://yaakaito.org/
 exclude: [README.markdown, js/grunt.js, js/main.js]
