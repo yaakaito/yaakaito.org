@@ -1,8 +1,8 @@
 ;(function(){
   
   var base = { w : 1160 , h : 752 },
-  header = document.querySelector("body > header"),
-  footer = document.querySelector("body > footer"),
+  header = document.querySelector("body > div:nth-child(1)"),
+  footer = document.querySelector("body > div:nth-child(2)"),
   svg = document.querySelector("body > svg"),
   layout = function() {
     var width = window.innerWidth,
